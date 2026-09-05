@@ -1,0 +1,23 @@
+{
+  "name": "asmco-industrial-extrusion",
+  "version": "1.0.0",
+  "description": "ASMCO Industrial Extrusion - Custom Plastic Profiles & Pipes Manufacturer",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"No tests configured\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrontEndProfile/asmco-industrial-extrusion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrontEndProfile/asmco-industrial-extrusion/issues"
+  },
+  "homepage": "https://github.com/FrontEndProfile/asmco-industrial-extrusion#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
