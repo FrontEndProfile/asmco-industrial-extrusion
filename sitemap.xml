@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    <url>
+        <loc>https://asmco.company/</loc>
+        <lastmod>2026-09-05</lastmod>
+        <image:image>
+            <image:loc>https://asmco.company/media/asmco-hero-studio-v2.jpg</image:loc>
+            <image:caption>ASMCO custom plastic extrusion profiles, rigid pipes and flexible tubes</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://asmco.company/media/extrusion-families-3d.webp</image:loc>
+            <image:caption>Custom plastic profiles, rigid tubes and flexible tubing manufactured by ASMCO</image:caption>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://asmco.company/products/custom-plastic-profiles.html</loc>
+        <lastmod>2026-09-05</lastmod>
+        <image:image>
+            <image:loc>https://asmco.company/media/extrusion-families-3d.webp</image:loc>
+            <image:caption>Custom plastic profiles, PVC channels, pipes and flexible tubing</image:caption>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://asmco.company/industries/applications.html</loc>
+        <lastmod>2026-09-05</lastmod>
+        <image:image>
+            <image:loc>https://asmco.company/media/asmco-hero-studio-v2.jpg</image:loc>
+            <image:caption>Custom plastic extrusion components for industrial applications in Pakistan</image:caption>
+        </image:image>
+    </url>
+</urlset>
