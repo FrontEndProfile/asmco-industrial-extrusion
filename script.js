@@ -1,14 +1,14 @@
 const toggle = document.querySelector('.mobile-toggle');
 const links = document.querySelector('.nav-links');
-toggle ? .addEventListener('click', () => {
+toggle?.addEventListener('click', () => {
     const open = links.classList.toggle('open');
     toggle.setAttribute('aria-expanded', String(open));
     toggle.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation')
 });
 document.querySelectorAll('.nav-links a').forEach(a => a.addEventListener('click', () => {
-    links ? .classList.remove('open');
-    toggle ? .setAttribute('aria-expanded', 'false');
-    toggle ? .setAttribute('aria-label', 'Open navigation')
+    links?.classList.remove('open');
+    toggle?.setAttribute('aria-expanded', 'false');
+    toggle?.setAttribute('aria-label', 'Open navigation')
 }));
 const animateDetails = (items, exclusive = false) => {
     const panelOf = item => item.querySelector('.family-content') || item.querySelector('p');
@@ -37,7 +37,7 @@ const animateDetails = (items, exclusive = false) => {
         if (!panel) return;
         if (item.open) panel.style.height = 'auto';
         if (!panel.classList.contains('family-content')) panel.style.transition = 'height .4s cubic-bezier(.2,.75,.25,1),opacity .25s';
-        item.querySelector('summary') ? .addEventListener('click', event => {
+        item.querySelector('summary')?.addEventListener('click', event => {
             event.preventDefault();
             if (item.open) {
                 close(item);
