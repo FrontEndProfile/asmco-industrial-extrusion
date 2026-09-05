@@ -966,13 +966,21 @@ footer {
         width: calc(100% - 28px)
     }
     .topbar .container {
-        height: 32px
+        height: auto;
+        min-height: 44px;
+        padding: 6px 0;
+        gap: 12px;
+        line-height: 1.35
     }
     .topbar span {
-        font-size: .66rem
+        min-width: 0;
+        font-size: .66rem;
+        overflow-wrap: break-word
     }
     .topbar a {
-        font-size: .68rem
+        flex-shrink: 0;
+        font-size: .68rem;
+        white-space: nowrap
     }
     .nav-inner {
         height: 72px
@@ -1207,6 +1215,24 @@ footer {
     .cta {
         padding: 30px 22px;
         grid-template-columns: 1fr
+    }
+    .footer-grid .brand img {
+        width: auto
+    }
+}
+
+@media(max-width:360px) {
+    .topbar .container {
+        flex-wrap: wrap;
+        gap: 2px;
+        padding: 7px 0
+    }
+    .topbar .container>* {
+        flex: 1 0 100%;
+        text-align: left
+    }
+    .topbar a {
+        white-space: normal
     }
 }
 
